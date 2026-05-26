@@ -1,3 +1,6 @@
 # Lab8-Starter
+Working alone
+
+https://gaw004.github.io/Lab8_Starter/
 
 Graceful degradation and service workers are basically a power duo when it comes to keeping a website from completely faceplanting when a user’s internet goes to crap. In a traditional web app, the second you lose Wi-Fi or walk into a campus basement with zero reception, the site completely dies and hits you with that depressing "No Internet" dinosaur screen. By throwing a service worker into the mix, you’re essentially practicing graceful degradation: when the network is solid, the app goes all out at "max settings" to fetch live data, but if the connection drops, the service worker acts like a safety net. It intercepts those failed requests and gracefully downgrades the experience by serving up cached assets and data locally, keeping the core UI running seamlessly offline instead of letting the whole site totally break.
